@@ -12,11 +12,11 @@ logger.addHandler(fh)
 
 
 connect = {
-    "host": "localhost",
+    "host": "35.185.55.51",
     "port": 3306,
     "user": "root",
-    "passwd": "root",
-    "db": "chenx",
+    "passwd": "123456",
+    "db": "bilibili",
     "charset": "utf8",
 }
 
