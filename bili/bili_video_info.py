@@ -32,7 +32,8 @@ def run(url):
     time.sleep(0.5)  # 延迟，避免太快 ip 被封
     try:
         data = req["data"]
-        if data["view"] != "--" and data["aid"] != 0:
+        # if data["view"] != "--" and data["aid"] != 0:
+        if data["view"] >= 1000000:
             video = (
                 data["aid"],  # 视频编号
                 data["view"],  # 播放量
